@@ -18,6 +18,15 @@
 
 ```
 
+## Invoking the curriedFn function example ##
+
+```js
+
+  curriedFn(11)(22)(33);
+  // Output: 66
+
+```
+
 ## Same example but with a normal function ##
 
 ```js
@@ -25,5 +34,14 @@
   function fn(a, b, c) {
     return a + b + c;
   }
+
+```
+
+## Invoking the nomral function example ##
+
+```js
+
+  fn(11,22,33);
+  // Output: 66
 
 ```
